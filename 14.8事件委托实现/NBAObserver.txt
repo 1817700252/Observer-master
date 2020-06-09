@@ -1,0 +1,10 @@
+//看NBA的同事
+    class NBAObserver
+    {
+        private string name;
+        private Subject sub;
+        public NBAObserver(string name, Subject sub)
+        {
+            this.name = name;
+            this.sub = sub;
+        }
